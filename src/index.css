@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+    --login-meta: oklch(0.4867 0.2896 267.54);
+}
