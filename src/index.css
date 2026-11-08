@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-    --login-meta: oklch(0.4867 0.2896 267.54);
+    --color-login-meta: oklch(0.4867 0.2896 267.54);
+    --color-login-meta-outline: oklch(0.5942 0.2226 275.57);
 }
