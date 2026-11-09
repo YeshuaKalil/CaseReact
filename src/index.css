@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
     --color-login-meta: oklch(0.4867 0.2896 267.54);
+    --color-login-meta-variant: oklch(0.6015 0.2389 292.49);
     --color-login-meta-outline: oklch(0.5942 0.2226 275.57);
+    --color-login-meta-dark: oklch(0.1822 0 0);
+    --color-login-meta-outline-dark: oklch(0.72 0.1723 303.07);
+    --color-login-meta-variant-dark: oklch(0.4814 0.2784 286.54);
+    --color-login-meta-variant2-dark: oklch(0.3732 0.2273 279.07);
 }
