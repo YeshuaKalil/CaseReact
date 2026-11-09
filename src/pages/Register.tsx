@@ -1,4 +1,3 @@
-import {Input} from '@/components/ui/input'
 import {Button} from '@/components/ui/button'
 import {Field, FieldGroup, FieldLabel, FieldSet} from '@/components/ui/field'
 import '../index.css'
